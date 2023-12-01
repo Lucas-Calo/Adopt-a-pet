@@ -1,0 +1,162 @@
+/* Padrao */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Section--1 */
+
+.section--1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f9fa;
+    height: 6rem;
+}
+
+.logo {
+    height: auto;
+    width: 75px;
+    border-radius: 100%;
+}
+
+.NavBar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: #002D62;
+}
+
+.NavBar :hover {
+    color: #6CB4EE;
+}
+
+/* Section--2 */
+
+.section--2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6CB4EE;
+    height: 24rem;
+    color: #002D62;
+}
+
+.section--2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.button {
+    background-color:#f8f9fa;
+    border: none;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 1.2rem;
+    color: #002D62;
+    transition: all 0.5s;
+}
+
+#section2img {
+    height: 300px;
+    width: auto;
+    border-radius: 75%;
+}
+
+/* Section--3 */
+
+#section--3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3.5rem;
+    height: 5rem;
+    color: #002D62;
+}
+
+.section--3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 1rem;
+
+}
+
+
+.pet {
+    width: 300px;
+    height: 250px;
+    border: 2x solid transparent;
+    border-radius: 15px;
+
+}
+
+
+.pet1 {
+    background-color: #DCDCDC;
+    padding: 1rem;
+    border: 2x solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    margin-bottom: 0.5rem;
+    color: #002D62;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.section--3 .pet1:hover {
+    background-color: #6CB4EE;
+    border-color: #fff;
+    color: #f8f9fa;
+    cursor: pointer;
+}
+
+/* Section--4 */
+
+.section--4 {
+    height: 12rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #002D62;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 5rem;
+}
+
+.section--4 p.author {
+    text-align: end;
+    font-size: 1.5rem;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    font-size: 15px;
+    color: #002D62;
+    font-weight: 600;
+    height: 30px;
+}
